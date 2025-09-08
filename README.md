@@ -188,16 +188,16 @@ pro_russian_queries = [
 ]
 
 Output:
-- russia-is-not-a-threat-nor-enemy: 15 relevant texts
-- nato-provokes-proliferation-ukraine: 7 relevant texts
-- against-supply-of-weapons-for-peace: 11 relevant texts
-- sanctions-and-energy-harm-us: 17 relevant texts
-- russia-invincible-nuclear-power: 0 relevant texts
-- crimea-self-determination-and-durability: 16 relevant texts
-- good-relations-with-russia: 85 relevant texts
-- whataboutism-iraq-yugoslavia: 1 relevant texts
-- west-proxy-war-and-propaganda: 41 relevant texts
-- historical-gratitude-ussr-and-slovakia: 9 relevant texts
+- rusko-nie-je-hrozba-ani-nepriatel: 15 relevant texts
+- nato-provokuje-rozsirovanie-ukrajina: 7 relevant texts
+- proti-dodavkam-zbrani-za-mier: 11 relevant texts
+- sankcie-a-energia-skodia-nam: 17 relevant texts
+- rusko-neporazitelna-jadrova-mocnost: 0 relevant texts
+- krym-sebaurcenie-a-trvalost: 16 relevant texts
+- dobre-vztahy-s-ruskom: 85 relevant texts
+- whataboutizmus-irak-juhoslavia: 1 relevant texts
+- zapad-proxy-vojna-a-propaganda: 41 relevant texts
+- historicka-vdacnost-sssr-a-slovania: 9 relevant texts
 
 Total file:
 [Final_russian_narratives](final_analysis_gpt-5_russian.md)
