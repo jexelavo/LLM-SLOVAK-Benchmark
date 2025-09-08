@@ -66,10 +66,10 @@ For clustering and anomaly detection tasks, it was necessary to clean the texts 
 ## 2.anomaly_detection_final.ipynb
 
 I created pairs from individual topics, where 3% of the basic number from another topic was inserted into one. The task was to detect anomalies using these anomaly classifiers on embedding vectors. The F1 result is the average for all thematic pairs.
-![Results](graphs\top3_detectors_per_embedding_f1_matplotlib.png)
+![Results](graphs/top3_detectors_per_embedding_f1_matplotlib.png)
 
 The average F1 value across embedding models corresponds to expectations, although I expected healthcare and culture to be semantically better separable.
-![Results2](graphs\copod_f1_heatmap_bidirectional_lower.png)
+![Results2](graphs/copod_f1_heatmap_bidirectional_lower.png)
 
 ## 3.embeddings_effectivity_final.ipynb
 
@@ -88,10 +88,10 @@ I tested 2 clustering efficiency tasks. 1. if we have a predetermined number of 
 | mistral_embedings           | fixed | 11     | 0.631     | 0.649  | 0.627 | 0.593     | 0.407 |
 
 Thematic structure of the cluster gemini elbow
-![Results](graphs\slovak_parliamentary_cluster_composition_gemini-embedding-exp-03-07_elbow.png)
+![Results](graphs/slovak_parliamentary_cluster_composition_gemini-embedding-exp-03-07_elbow.png)
 
 Thematic structure of the cluster gemini fixed
-![Results](graphs\slovak_parliamentary_cluster_composition_gemini-embedding-exp-03-07_fixed.png)
+![Results](graphs/slovak_parliamentary_cluster_composition_gemini-embedding-exp-03-07_fixed.png)
 
 ## 4.embeddings_effectivity_final_to_eng.ipynb
 
@@ -119,11 +119,11 @@ between the derived text and the primary text and the order in which it appeared
 Results for recall@5
 
 **Literal sentence**
-![Results](graphs\slovak_parliamentary_unique_literal_recall_at_5_embedding_effectiveness.png)
+![Results](graphs/slovak_parliamentary_unique_literal_recall_at_5_embedding_effectiveness.png)
 **Paraphrase**
-![Results](graphs\slovak_parliamentary_unique_paraphrase_recall_at_5_embedding_effectiveness.png)
+![Results](graphs/slovak_parliamentary_unique_paraphrase_recall_at_5_embedding_effectiveness.png)
 **Question**
-![Results](graphs\slovak_parliamentary_unique_question_recall_at_5_embedding_effectiveness.png)
+![Results](graphs/slovak_parliamentary_unique_question_recall_at_5_embedding_effectiveness.png)
 
 ## 6.cosine_score_treshold_final.ipynb
 
@@ -139,13 +139,13 @@ Methodology for determining the "semantic threshold". The procedure is based on 
 I sorted the texts in descending order by cosine score. After 50 texts, I created clusters. Cluster 1 was for the 50 highest scores, cluster 2 was for the 100 highest scores, etc.
 For the breakpoint in quality, I used pwlf - Piecewise Linear Fit. I use a 2-segment fit to find the elbow/knee of a metric curve and take the breakpoint index as the threshold.
 
-![Results](graphs\threshold_curve_gemini-embedding-exp-03-07_gemini-embedding-exp-03-07_vaccine_similarity_cosine_score_avg_intra_cosine_pwlf.png)
+![Results](graphs/threshold_curve_gemini-embedding-exp-03-07_gemini-embedding-exp-03-07_vaccine_similarity_cosine_score_avg_intra_cosine_pwlf.png)
 
 It is necessary to say that the method still needs a little tuning. The models in the set agree with each other, but the head is in the highest quartile (highest score), at the same time when manually labeling the bottom 2 for each model it was seen that they thematically loosened up and were just ahead of the rake, or behind it.
 
 ![Results](graphs/model_uniqueness_overlap.png)
 
-![Results](graphs\model_specific_quartiles_vaccine_similarity.png)
+![Results](graphs/model_specific_quartiles_vaccine_similarity.png)
 
 ## 7.stance_emmbedings_final.ipynb
 
@@ -157,13 +157,13 @@ All narratives were discussed during the 8th election cycle. The clubs but have 
 
 To measure sentiment I have chosen the following methodology. If the proposer is the government, then the deputies from the opposition clubs criticize the proposal. To measure sentiment I have therefore used the statements of the deputies from the opposition against the government proposals.
 
-![Results](graphs\model_accuracy_horizontal_20250906_175242.png)
+![Results](graphs/model_accuracy_horizontal_20250906_175242.png)
 
 ## 9.stance_LLM_research_final.ipynb
 
 To distinguish the stance, i.e. whether we are defending pro-vaccination theses, or whether the speaker supports pro-Russian arguments, I used the following methodology. Based on **cosine_score_treshold_final** I identified texts with a present narrative (agreement of 4 out of 5 models), then I used deputies from clubs whose stance is certain as a label.
 
-![Results](graphs\stance_accuracy_llmvaccine_models_horizontal_HR_20250906_190432.png)
+![Results](graphs/stance_accuracy_llmvaccine_models_horizontal_HR_20250906_190432.png)
 
 ## 10.AI_agent_politico_final.ipynb
 
@@ -204,13 +204,13 @@ Total file:
 
 ## 11.analysis\politico_analytic.ipynb
 *Visualization of selected talking points*
-![Results](graphs\occurrences_over_time_dobre-vztahy-s-ruskom.png)
+![Results](graphs/occurrences_over_time_dobre-vztahy-s-ruskom.png)
 
-![Results](graphs\occurrences_over_time_whataboutizmus-irak-juhoslavia.png)
+![Results](graphs/occurrences_over_time_whataboutizmus-irak-juhoslavia.png)
 
-![Results](graphs\occurrences_over_time_dobre-vztahy-s-ruskom.png)
+![Results](graphs/occurrences_over_time_dobre-vztahy-s-ruskom.png)
 
-![Results](graphs\occurrences_over_time_nato-provokuje-rozsirovanie-ukrajina.png)
+![Results](graphs/occurrences_over_time_nato-provokuje-rozsirovanie-ukrajina.png)
 
 
 ## Conclusion
