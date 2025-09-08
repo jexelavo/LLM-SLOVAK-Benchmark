@@ -210,7 +210,7 @@ Total file:
 
 ![Results](graphs\occurrences_over_time_dobre-vztahy-s-ruskom.png)
 
-![Results](raphs\occurrences_over_time_nato-provokuje-rozsirovanie-ukrajina.png)
+![Results](graphs\occurrences_over_time_nato-provokuje-rozsirovanie-ukrajina.png)
 
 
 ## Conclusion
