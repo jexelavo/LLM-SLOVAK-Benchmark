@@ -225,5 +225,5 @@ When programming, Copilot was my assistant, and when it came to the correct form
 title={Slovak LLM Benchmark},
 author={Dobroľubov, Alexej},
 year={2025},
-url={https://github.com/jexela/slovak-llm-benchmark}
+url={https://github.com/jexela/LLM-SLOVAK-Benchmark}
 }
