@@ -25,6 +25,36 @@ share/python-wheels/
 .installed.cfg
 *.egg
 MANIFEST
+# --- Additions for notebooks, data, and secrets ---
+
+# Jupyter notebooks noise
+.ipynb_checkpoints/
+*.ipynb_convert/
+*.nbconvert.ipynb
+
+# Virtual envs & local settings
+.venv/
+.vscode/
+
+# Secrets
+.env
+keys.env
+
+# Data & artifacts (customize!)
+data/
+datasets/
+models/
+artifacts/
+outputs/
+*.parquet
+*.feather
+*.csv
+*.xlsx
+
+# Caches
+__pycache__/
+*.pyc
+*.pyo
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -205,3 +235,15 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+data/
+keys/
+app/
+archiv/
+data_prep/
+Embeddings/
+input/
+next_phase/
+scraping/
+keys.env/
+.env/
