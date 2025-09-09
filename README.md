@@ -1,4 +1,4 @@
-##LLM SLOVAK Benchmark##
+## LLM SLOVAK Benchmark
 
 The aim of the project is to test LLM models and embedding models on the Slovak text corpus.
 As a corpus for testing, I use transcripts from the session of the National Council of the Republic of Slovakia. They have two advantages:
