@@ -61,7 +61,7 @@ Here I present a brief summary of the procedure and results of the single notebo
 ## 1.clean_semantically_speeches_final.ipynb
 
 For clustering and anomaly detection tasks, it was necessary to clean the texts from semantically irrelevant texts, such as the chairman's statement, organizational statements, voting statements, etc. To identify anomalies, I used ECOD, KNN OTHER on embeddings, with the labeled texts I personally checked. Anomalies were identified within the framework of topics submitted by the ministry.
-![Results]()
+
 
 ## 2.anomaly_detection_final.ipynb
 
