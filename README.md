@@ -14,8 +14,7 @@ Antrophic: claude-3-5-sonnet-20241022, haikul
 
 Embedding models:
 - openai: large and mini
-- voyage: large
--cgemnini: -embedding-exp-03-07 note google changed the context window for this model from 8100 to 2000 and it is currently gemini-embedding-001/gemini
+- google -embedding-exp-03-07 note google changed the context window for this model from 8100 to 2000 and it is currently gemini-embedding-001/gemini
 - mistral
 - voyage: voyage large
 
