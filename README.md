@@ -180,11 +180,11 @@ The goal is to create a full set of statements from a number of statements n tha
 
 Input:
 pro_russian_queries = [
-"Let's not make Russia our enemy Russia is not our enemy.",
-"Russia has discussed NATO enlargement. Russia will never allow Ukraine to be in NATO",
-"By supplying weapons, we will only prolong the conflict. If we send weapons, we will prolong the conflict and more people will die",
-"You all just scare Russia, that Russia is bad. But what about Iraq and Yugoslavia, which were bombed by the Americans and the USA. Why were you silent then? ",
-"We only harm ourselves with sanctions. Russia does not suffer from sanctions at all. Without Russian gas, we will freeze "
+"Nerobme z Ruska nášho nepriatela Rusko nie je náš nepriateľ.",
+    "Rusko vyprokovalo rozširovanie do NATO. Rusko nikdy nedovolí,  aby Ukrajina bola v NATO",
+    "Dodavanim zbrani ten konflit len predlžujme.Ak budeme posielat zbrane tak ten konflikt predlžime a viac ľudí bude umierať",
+    "Všetci len strašite Ruskom, že Rusko je zle. Ale čo Irak a Juhoslavia čo bombardovali Američania a USA. Prečo ste boli vtedy ticho? ",
+    "Sankciami poškudzujeme len seba. Rusko sankciami vobec netrpi. Bez ruskeho plynu to pomrzneme "
 ]
 
 Output:
